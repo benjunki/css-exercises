@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 html, body {
   height: 100%;
 }
@@ -17,12 +18,16 @@ body {
 
 .header{
   display: flex;
-  font-weight: bold;
+  font-weight: 700;
+  margin-bottom: 8px;
+  font-size: 20px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .modal {
-  padding: 8px;
+  padding: 16px;
+  gap: 16px;
   display:flex;
   flex-direction: row;
   background: white;
@@ -63,6 +68,10 @@ body {
 .container{
   padding:8px;
   align-items: center;
+}
+
+.text{
+  margin-bottom:16px;
 }
 
 button {
